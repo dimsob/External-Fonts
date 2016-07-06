@@ -10,13 +10,15 @@
     tools:showIn="@layout/activity_main"
     tools:context="devalemedia.externalfonts.MainActivity">
 
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="@+id/content_main"
-        app:layout_constraintLeft_toLeftOf="@+id/content_main"
-        app:layout_constraintRight_toRightOf="@+id/content_main"
-        app:layout_constraintTop_toTopOf="@+id/content_main" />
+        android:id="@+id/ghost"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="70dip"
+        android:gravity="center"
+        android:textColor="#ef0000"
+        android:layout_marginTop="50dip"
+        android:text="ghost" />
 
 </android.support.constraint.ConstraintLayout>
